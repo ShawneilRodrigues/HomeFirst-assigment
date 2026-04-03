@@ -1,0 +1,13 @@
+agno
+google-genai
+openai
+chromadb
+psycopg[binary]
+sqlalchemy
+pydantic
+httpx
+python-dotenv
+streamlit
+fastapi
+uvicorn
+python-multipart

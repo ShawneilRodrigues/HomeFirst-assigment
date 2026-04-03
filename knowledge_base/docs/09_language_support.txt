@@ -1,0 +1,3 @@
+Language Support
+
+The counselor can support English, Hindi, Marathi, and Tamil with language lock during a session.

@@ -1,0 +1,370 @@
+================================================================================
+DOCUMENT 1: HomeFirst Finance – Loan Eligibility Criteria
+SOURCE: homefirstindia.com / paisabazaar.com
+================================================================================
+
+HomeFirst Finance Company (HFFC) provides home loans to:
+- Resident Indians
+- Non-Resident Indians (NRIs)
+- Persons of Indian Origin (PIOs / OCI card holders)
+- Salaried professionals
+- Self-employed individuals and small business owners
+
+KEY ELIGIBILITY RULES:
+1. Loan-to-Value (LTV) Cap:
+   - Maximum loan = 90% of property value (agreement value).
+   - 90% LTV is available ONLY for loans below Rs. 30 lakhs.
+   - For higher loan amounts, LTV is lower (typically 75–80%).
+   - The average LTV across HomeFirst's portfolio is approximately 47%.
+
+2. FOIR (Fixed Obligation to Income Ratio):
+   - FOIR measures the share of income going toward all existing EMIs plus the proposed EMI.
+   - HomeFirst keeps FOIR well below 60% for most borrowers.
+   - Only ~1.7% of HomeFirst's loan portfolio has a FOIR exceeding 60%.
+   - General rule: Total EMI obligations (including new loan) should not exceed 50% of net monthly income.
+
+3. Credit Score (CIBIL):
+   - A CIBIL score of 750 or above is preferred for easy approval.
+   - Low CIBIL scores are still considered on a case-by-case basis.
+   - Adding a co-applicant with a steady income can compensate for a low credit score.
+
+4. Loan Amount Range:
+   - Minimum: Rs. 1 lakh
+   - Maximum: Rs. 75 lakhs (home loans); up to Rs. 50 lakhs for Loan Against Property.
+
+5. Tenure:
+   - Minimum: 1 year
+   - Maximum: 25 years
+
+6. Income Proof:
+   - Not mandatory. HomeFirst specifically targets borrowers who lack formal income documentation.
+   - For self-employed customers, a steady source of income and good credit history are the main requirements.
+
+7. Loan Approval Time:
+   - Home loan can be sanctioned within 48 hours of application.
+
+================================================================================
+DOCUMENT 2: HomeFirst Finance – Documents Required
+SOURCE: homefirstindia.com/blog/article/documents-needed-loan-application
+================================================================================
+
+COMMON DOCUMENTS (All Applicants):
+1. Duly filled Loan Application Form
+2. KYC Documents (any one for identity + address):
+   - Aadhaar Card
+   - PAN Card
+   - Passport
+   - Driving Licence
+   - Voter ID Card
+3. Passport-size photographs
+4. Bank statements of the last 6 months
+
+FOR SALARIED APPLICANTS:
+- Salary slips of the last 3 months
+- Form 16 / Income Tax Returns (ITR) for the last 2 years
+- Employment proof / Appointment letter
+
+FOR SELF-EMPLOYED APPLICANTS:
+- Income proof is NOT mandatory at HomeFirst.
+- Business existence proof (GST registration, trade licence, etc.) may be requested.
+- Bank statements of the last 12 months (in lieu of salary slips) are often used.
+- ITR if available (not compulsory).
+
+PROPERTY DOCUMENTS (Required at sanction stage):
+- Sale Agreement / Sale Deed
+- No Objection Certificate (NOC) from builder/society
+- Occupancy Certificate (for ready properties)
+- Property title documents (chain of ownership)
+- Encumbrance certificate
+- Approved building plan
+
+FOR NRI APPLICANTS (additional documents):
+- OCI / PIO card
+- Passport with valid visa
+- Power of Attorney (if applying through a representative)
+- NRE / NRO bank account statements
+- Overseas salary slips or employment contract
+
+NOTE:
+- Soft copies of all documents are accepted for online applications.
+- Co-applicants must submit all the above documents separately.
+- Existing HomeFirst customers need NOT resubmit identity/address documents for a top-up or balance transfer. The property will be re-evaluated.
+
+================================================================================
+DOCUMENT 3: HomeFirst Finance – Interest Rates and Charges
+SOURCE: paisabazaar.com, urbanmoney.com, homefirstindia.com
+================================================================================
+
+HOME LOAN INTEREST RATES:
+- Starting from: 8.00% per annum
+- Range: 8.00% – 17.50% per annum (floating, based on borrower profile)
+- Rate depends on: loan amount, credit score, employment type, loan purpose, tenure.
+
+LOAN AGAINST PROPERTY (Mortgage Loan):
+- Interest rate starting from: 14.00% per annum
+- Maximum loan: Rs. 50 lakhs
+- Maximum tenure: 20 years
+- LTV: up to 50% of property value
+
+PROCESSING FEE:
+- Charged at the time of loan application.
+- Exact percentage varies by loan product (check with relationship manager).
+
+PREPAYMENT / FORECLOSURE CHARGES:
+- NIL. No prepayment or foreclosure charges.
+- RBI regulations prohibit prepayment penalties on floating rate loans.
+- HomeFirst actively encourages prepayments.
+
+AUTO PREPAY FEATURE:
+- Customer can pay an additional Rs. 1,000 per month over the EMI.
+- This gets adjusted against the principal, reducing loan tenure significantly.
+- Can save up to 63 EMIs over the loan tenure.
+
+TAX BENEFITS:
+- Principal repayment: Deduction up to Rs. 1.5 lakh under Section 80C of the Income Tax Act.
+- Interest paid: Deduction up to Rs. 2 lakh under Section 24 of the Income Tax Act.
+
+================================================================================
+DOCUMENT 4: HomeFirst Finance – EMI Calculation & Loan Tenure
+SOURCE: homefirstindia.com/faqs, homefirstindia.com/home-loan-emi-calculator
+================================================================================
+
+HOW EMI IS CALCULATED:
+EMI = [P × R × (1+R)^N] / [(1+R)^N – 1]
+Where:
+  P = Principal loan amount
+  R = Monthly interest rate (Annual Rate / 12 / 100)
+  N = Loan tenure in months
+
+EXAMPLE:
+- Loan amount: Rs. 30 lakhs
+- Interest rate: 8.00% per annum
+- Tenure: 20 years (240 months)
+- Monthly EMI = approximately Rs. 25,093
+
+FACTORS AFFECTING EMI:
+1. Loan Principal (P): Higher the loan, higher the EMI.
+2. Interest Rate: Floating rate; EMI changes if RBI repo rate changes.
+3. Tenure: Longer tenure = lower EMI but higher total interest paid.
+
+EMI START DATE:
+- For under-construction properties, EMI starts only after possession.
+- For ready properties, EMI starts from the next month after disbursement.
+
+HomeFirst provides an online EMI calculator at: homefirstindia.com/home-loan-emi-calculator
+HomeFirst provides an eligibility calculator at: homefirstindia.com/home-loan-eligibility-calculator
+
+================================================================================
+DOCUMENT 5: HomeFirst Finance – Loan Products Offered
+SOURCE: homefirstindia.com/product/home-loan
+================================================================================
+
+HomeFirst offers the following loan products:
+
+1. HOME LOAN (Purchase Loan):
+   - For purchasing a new or ready-to-move property.
+   - Up to 90% of property value for loans < Rs. 30 lakhs.
+   - Tenure up to 25 years.
+
+2. SELF-CONSTRUCTION LOAN:
+   - For customers who own a plot and want to construct a house.
+   - Disbursement in tranches based on construction stages.
+
+3. RESALE / BALANCE TRANSFER LOAN:
+   - For purchasing a resale property or transferring an existing home loan from another lender to HomeFirst.
+   - Helps reduce interest cost if HomeFirst offers a lower rate.
+
+4. MORTGAGE LOAN (Loan Against Property):
+   - Loan against existing residential or commercial property.
+   - Up to 50% LTV; interest rate from 14% p.a.
+   - Maximum Rs. 50 lakhs, tenure up to 20 years.
+
+5. SHOP LOAN:
+   - For purchasing a commercial shop.
+
+6. RENOVATION / EXTENSION LOAN:
+   - For home renovation, extension, or improvement.
+
+7. TOP-UP LOAN:
+   - Additional loan on top of existing HomeFirst home loan.
+   - Available if total loan does not exceed 90% of current property value.
+
+================================================================================
+DOCUMENT 6: HomeFirst Finance – Self-Employed & Informal Income Borrowers Policy
+SOURCE: homefirstindia.com/faqs, homefirstindia.com/product/home-loan
+================================================================================
+
+HomeFirst SPECIFICALLY serves borrowers in the informal income segment — a key differentiator.
+
+KEY POLICIES FOR SELF-EMPLOYED / INFORMAL SECTOR:
+- Income proof is NOT mandatory. HomeFirst uses alternate income assessment methods.
+- A field investigation (FI) is conducted at the business/home premises.
+- Cash flow and bank statements serve as a proxy for income proof.
+- Steady source of income and good credit/repayment history are the primary requirements.
+- HomeFirst evaluates each application INDIVIDUALLY, not just on numbers.
+
+WHO CAN APPLY (Self-Employed):
+- Shopkeepers, small traders, freelancers
+- Contractors, carpenters, plumbers, electricians
+- Vegetable/fruit vendors, auto-rickshaw owners
+- Small factory or workshop owners
+- Anyone with a verifiable steady income
+
+CO-APPLICANT BENEFIT:
+- A co-applicant (spouse, parent, sibling) can be added to strengthen the application.
+- All co-applicant income is considered for eligibility.
+- No guarantors are required.
+
+NRI SELF-EMPLOYED:
+- NRI self-employed can apply with overseas employment contract or income proof.
+- An Indian resident co-applicant / Power of Attorney holder is recommended.
+
+================================================================================
+DOCUMENT 7: HomeFirst Finance – PMAY (Pradhan Mantri Awas Yojana) Subsidy
+SOURCE: homefirstindia.com/pradhan-mantri-awas-yojana-pmay
+================================================================================
+
+PMAY 2.0 (Pradhan Mantri Awas Yojana – Urban 2.0):
+- Government scheme to provide affordable housing to eligible Indian citizens.
+- HomeFirst is an empanelled lender under PMAY.
+
+ELIGIBILITY FOR PMAY SUBSIDY:
+- First-time home buyers only (should not own any pucca house in India).
+- Annual household income limits apply:
+  - EWS (Economically Weaker Section): Income up to Rs. 3 lakh/year
+  - LIG (Low Income Group): Income Rs. 3–6 lakh/year
+  - MIG (Middle Income Group – I): Income Rs. 6–12 lakh/year
+  - MIG (Middle Income Group – II): Income Rs. 12–18 lakh/year
+
+SUBSIDY BENEFIT:
+- Interest subsidy is provided on the loan amount under Credit Linked Subsidy Scheme (CLSS).
+- Subsidy amount varies by income category and loan amount.
+- Subsidy is credited upfront to the loan account, reducing principal.
+
+HOW TO CHECK:
+- Use the PMAY Subsidy Calculator on HomeFirst's website: homefirstindia.com/pmay-subsidy-calculator
+
+DOCUMENTS FOR PMAY:
+- Aadhaar Card (mandatory)
+- Self-declaration that no pucca house is owned
+- Income certificate (Form 16, ITR, or self-declaration for informal sector)
+
+================================================================================
+DOCUMENT 8: HomeFirst Finance – Loan Process & Repayment
+SOURCE: homefirstindia.com/faqs, homefirstindia.com/blog/article/documents-needed-loan-application
+================================================================================
+
+LOAN APPLICATION PROCESS (Step-by-Step):
+Step 1: Apply online at homefirstindia.com or via the HomeFirst mobile app.
+Step 2: Enter mobile number and verify with OTP.
+Step 3: Fill in loan requirement details (amount, property, purpose).
+Step 4: Enter personal and employment/income details.
+Step 5: Upload soft copies of required documents.
+Step 6: HomeFirst's relationship manager contacts you.
+Step 7: Field Investigation (FI) conducted at property / business premises.
+Step 8: Credit appraisal and underwriting.
+Step 9: Loan sanction letter issued (within 48 hours for eligible profiles).
+Step 10: Loan agreement signed.
+Step 11: Disbursement directly to builder or seller.
+
+EMI REPAYMENT:
+- EMI is auto-debited from bank account via ACH/NACH mandate on a fixed date each month.
+- ACH form is filled at the time of loan approval.
+- EMI can be increased anytime using the Auto Prepay feature.
+- Prepayments (partial or full) can be made via the HomeFirst app, zero charges.
+
+LOAN TRACKING:
+- Track loan application status at: homefirstindia.com (Track Loan section)
+- Enter registered mobile number and OTP.
+
+CUSTOMER CARE:
+- Fresh loan enquiry: +91-8880649911
+- Existing loan enquiry: +91-8880549911
+- Email: loanfirst@homefirstindia.com
+- Support hours: Monday to Saturday, 9 AM – 6 PM
+
+DOCUMENT STORAGE:
+- Original property documents are stored securely by HomeFirst.
+- Smart and weatherproof lockers used.
+- Documents returned on simple request after loan closure.
+
+================================================================================
+DOCUMENT 9: HomeFirst Finance – FAQ Summary (Top Questions)
+SOURCE: homefirstindia.com/faqs
+================================================================================
+
+Q: What is the minimum and maximum loan amount?
+A: Minimum Rs. 1 lakh; maximum Rs. 75 lakhs for home loans.
+
+Q: What is the maximum loan tenure?
+A: 25 years for home loans. 20 years for Loan Against Property.
+
+Q: Can I apply without income proof?
+A: Yes. HomeFirst does not make income proof mandatory, especially for self-employed/informal sector borrowers.
+
+Q: What is the minimum CIBIL score required?
+A: 750+ is preferred, but lower scores are considered on a case-by-case basis. Adding a co-applicant helps.
+
+Q: Is a guarantor needed?
+A: No. HomeFirst does not require a guarantor.
+
+Q: Can I prepay my loan?
+A: Yes, with zero prepayment charges. Partial or full prepayment is allowed anytime.
+
+Q: How much of the property value does HomeFirst finance?
+A: Up to 90% for loans under Rs. 30 lakhs. The balance must come from the borrower's own funds.
+
+Q: Can I get a joint/co-applicant home loan?
+A: Yes. Co-applicants are encouraged. All co-applicant income is considered for eligibility.
+
+Q: What tax benefits do I get on a home loan?
+A: Principal repayment: up to Rs. 1.5 lakh deduction under Section 80C. Interest paid: up to Rs. 2 lakh under Section 24.
+
+Q: Can an NRI apply for a HomeFirst home loan?
+A: Yes. An Indian address is required. A resident Indian co-applicant or Power of Attorney holder is recommended.
+
+Q: How long does loan approval take?
+A: Within 48 hours for eligible profiles.
+
+Q: What is the interest rate?
+A: Home loan rates start at 8.00% p.a. Final rate depends on credit profile, loan amount, tenure, and income.
+
+Q: What are the charges for personal loans or car loans?
+A: HomeFirst only offers home loans and related products (construction, renovation, mortgage, shop loans). We do not offer personal loans or car loans.
+
+Q: What is FOIR?
+A: FOIR (Fixed Obligation to Income Ratio) is the percentage of your monthly income going toward all EMI payments including the new home loan. HomeFirst generally requires FOIR to remain below 50–60%.
+
+Q: What is LTV?
+A: LTV (Loan-to-Value) is the ratio of the loan amount to the property's market/agreement value. HomeFirst offers a maximum LTV of 90% for loans under Rs. 30 lakhs.
+
+================================================================================
+DOCUMENT 10: HomeFirst Finance – Out-of-Scope Products (What HomeFirst Does NOT Offer)
+SOURCE: homefirstindia.com
+================================================================================
+
+HomeFirst Finance is a HOUSING FINANCE COMPANY (HFC). It specializes exclusively in home and property-related loans.
+
+HomeFirst does NOT offer:
+- Personal loans
+- Car loans / auto loans
+- Education loans
+- Credit cards
+- Business loans (other than mortgage / LAP)
+- Gold loans
+- Two-wheeler loans
+
+If a customer asks about personal loans, car loans, or any non-housing product, the agent should politely clarify that HomeFirst only offers home-related financial products and redirect the conversation to home loan counseling.
+
+PRODUCTS HOMEFAST DOES OFFER (all property-linked):
+1. Home Loan (purchase)
+2. Self-Construction Loan
+3. Resale / Balance Transfer Loan
+4. Loan Against Property (Mortgage Loan)
+5. Shop Loan
+6. Home Renovation / Extension Loan
+7. Top-Up Loan (for existing customers)
+
+================================================================================
+END OF KNOWLEDGE BASE
+================================================================================
