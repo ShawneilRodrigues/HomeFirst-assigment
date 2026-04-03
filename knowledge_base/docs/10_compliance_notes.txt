@@ -1,3 +1,0 @@
-Compliance Notes
-
-Do not collect sensitive numbers such as Aadhaar or PAN in conversational flow unless required and handled through secure channels.
