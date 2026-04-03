@@ -1,5 +1,9 @@
 # HomeFirst Voice Loan Counselor
 
+## Demo Video
+
+https://drive.google.com/uc?id=1TPfM_c8vUmNR6kcGsqpdbypT99vAYpyx&export=download
+
 Voice-first home loan counseling app built with Agno, FastAPI, Streamlit, Sarvam STT/TTS, and Chroma RAG.
 
 ## Features
@@ -175,6 +179,101 @@ docker compose ps
 ### RAG ingestion errors
 
 - Ensure keys are set (`GOOGLE_API_KEY`) and docs exist in `knowledge_base/docs`.
+
+## Core System Prompt
+
+The core instruction used by the counselor agent (from `app/counselor_agent.py`) is:
+
+```text
+You are Priya, a warm and professional home loan counselor for HomeFirst Finance Company India.
+You speak to first-time home buyers in their own language.
+
+LANGUAGE LOCK PROTOCOL
+LOCKED_LANGUAGE: {locked_language}
+- If LOCKED_LANGUAGE is None, detect language from the first user message.
+  Valid values: en, hi, mr, ta.
+- Once detected, lock and do not switch.
+
+CURRENT ENTITY STATE
+monthly_income: {monthly_income}
+property_value: {property_value}
+loan_amount_requested: {loan_amount_requested}
+employment_status: {employment_status}
+existing_emis: {existing_emis}
+tenure_months: {tenure_months}
+Never ask for information already captured.
+
+MISSION
+1. Ask one question at a time to gather required entities.
+2. Confirm entities before calling tools.
+3. Explain results simply and avoid approval guarantees.
+4. Use knowledge context for policy and process questions.
+
+CRITICAL RULES
+- Never do arithmetic yourself; use tools.
+- Never collect Aadhaar or PAN.
+- Keep responses concise and conversational for voice UX.
+```
+
+## Architecture & Flow Diagram
+
+```mermaid
+flowchart LR
+    U[User Voice/Text] --> S[Streamlit UI]
+    S -->|POST /api/voice| V[FastAPI Voice Endpoint]
+    S -->|POST /api/text| T[FastAPI Text Endpoint]
+
+    V --> STT[Sarvam STT]
+    STT --> A[Agno Agent]
+    T --> A
+
+    A --> K[Chroma RAG Knowledge]
+    A --> L[Loan Tools\nEMI + Eligibility]
+
+    A --> V
+    V --> TTS[Sarvam TTS]
+    TTS --> S
+
+    S <--> P[(Postgres Session Store)]
+```
+
+## Self-Identified Issues
+
+- The request path is mostly synchronous; voice turn latency stacks STT + LLM + TTS in one blocking call, which can increase timeout risk under load.
+- Session state handling is split between Agno session state and UI-side storage fallback, which can diverge and create inconsistent entity tracking.
+- The architecture is single-process and in-memory for active orchestration, so horizontal scaling can cause session affinity/state consistency issues.
+- Knowledge ingestion is an offline script and not versioned by document lifecycle; there is no robust metadata strategy for update/delete/reindex.
+- No explicit queue/backpressure for voice requests, so concurrent users can overwhelm model and TTS calls.
+- Observability is limited; no structured tracing across STT -> agent -> tools -> TTS pipeline for production debugging.
+
+## AI Code Review
+
+Review method:
+- Static AI review of core backend modules (`app/main.py`, `app/orchestrator.py`, `app/counselor_agent.py`, `app/tools.py`, `app/rag.py`) using an LLM-based code quality rubric.
+
+Summary:
+- Strengths: clear modular separation, deterministic financial tooling, practical multilingual flow, and useful fallback handling in UI.
+- Main concerns: mixed session state sources, mostly synchronous request orchestration, weak production hardening (auth/rate-limits/observability), and limited failure isolation for external APIs.
+- Code quality score: **7.2 / 10** for prototype stage.
+
+## Future Improvements
+
+### Technical
+
+- Move voice pipeline to async job processing (queue + worker) with streaming partial updates to reduce timeout sensitivity.
+- Introduce unified session/state service to avoid drift between UI local state, DB rows, and agent runtime session state.
+- Add robust observability: structured logs, distributed tracing, latency/error budgets per external dependency.
+- Add resilient dependency wrappers (circuit breakers, retries with jitter, fallback model policies, TTS/STT degradation modes).
+- Implement proper secrets/config management (environment profiles, secret manager integration, key rotation workflows).
+- Add CI checks for lint, type checks, integration tests, and regression test fixtures for loan eligibility behavior.
+
+### Functional/Business
+
+- Add RM handoff workflow with lead routing, transcript export, and CRM integration.
+- Add measurable conversation quality metrics (intent completion, entity capture rate, first-response correctness, handoff precision).
+- Expand domain intelligence: policy versioning, product-specific decision trees, and explainable eligibility rationale.
+- Add user feedback loop (thumbs up/down + correction capture) to improve prompt and retrieval quality over time.
+- Add multilingual response quality evaluation and voice persona tuning for better trust and conversion.
 
 ## Security Notes
 
