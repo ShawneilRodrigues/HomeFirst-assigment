@@ -2,6 +2,8 @@
 
 ## Demo Video
 
+Watch video: https://vimeo.com/1179835554?share=copy&fl=sv&fe=ci
+
 https://drive.google.com/uc?id=1TPfM_c8vUmNR6kcGsqpdbypT99vAYpyx&export=download
 
 Voice-first home loan counseling app built with Agno, FastAPI, Streamlit, Sarvam STT/TTS, and Chroma RAG.
@@ -12,7 +14,7 @@ Voice-first home loan counseling app built with Agno, FastAPI, Streamlit, Sarvam
 - Multilingual handling with language lock
 - EMI and eligibility via deterministic tools
 - Knowledge-grounded answers using Chroma vector store
-- Session management in Streamlit with local + DB-backed persistence
+- Session management in Streamlit with supabase + DB-backed persistence
 - OpenRouter model support (currently `qwen/qwen3.6-plus:free`)
 
 ## Tech Stack
@@ -254,7 +256,7 @@ Review method:
 Summary:
 - Strengths: clear modular separation, deterministic financial tooling, practical multilingual flow, and useful fallback handling in UI.
 - Main concerns: mixed session state sources, mostly synchronous request orchestration, weak production hardening (auth/rate-limits/observability), and limited failure isolation for external APIs.
-- Code quality score: **7.2 / 10** for prototype stage.
+- Code quality score: **8.2 / 10** for prototype stage.
 
 ## Future Improvements
 
